@@ -1,8 +1,4 @@
-$reqsContent = @"
 Flask==3.0.3
 Flask-CORS==5.0.0
 azure-cosmos==4.7.0
 gunicorn==24.2.0
-"@
-
-Set-Content -Path ".\requirements.txt" -Value $reqsContent -Force
