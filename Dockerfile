@@ -11,4 +11,4 @@ COPY . .
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"]
 "@
 
-New-Item -Path ".\Dockerfile" -ItemType File -Value $dockerfileContent -Force
+Set-Content -Path ".\Dockerfile" -Value $dockerfileContent -Force

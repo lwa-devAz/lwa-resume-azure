@@ -5,4 +5,5 @@ azure-cosmos==4.7.0
 gunicorn==24.2.0
 "@
 
-New-Item -Path ".\requirements.txt" -ItemType File -Value $reqsContent -Force
+Set-Content -Path ".\requirements.txt" -Value $reqsContent -Force
+
