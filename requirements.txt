@@ -6,4 +6,3 @@ gunicorn==24.2.0
 "@
 
 Set-Content -Path ".\requirements.txt" -Value $reqsContent -Force
-
